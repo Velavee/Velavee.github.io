@@ -1,0 +1,247 @@
+/* || General */
+
+body {
+	font-family: "Lucida Console", Monaco, monospace;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+input {
+	border: solid thin black;
+}
+
+/* || Sitewide */
+
+.color-links {
+	color: #006600;
+}
+
+.footer {
+	width: 100%;
+	height: 100px;
+}
+
+.long-text {
+	text-align: left;
+	font-family: 'Georgia', sans-serif;
+	line-height: 1.7;
+}
+
+/* || Sitewide -- Navigation Bar */
+
+.nav-links {
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+	font-family: "Lucida Console", Monaco, monospace;
+	line-height: 100px;
+}
+
+.nav-links:hover {
+		color: grey;
+}
+
+#contact-button {
+	float: left;
+	height: 100px;
+	width: 25%;
+	text-align: center;
+}
+
+#cv-button {
+	float: left;
+	height: 100px;
+	width: 25%;
+	text-align: center;
+}
+
+#home-button {
+	float: left;
+	height: 100px;
+	width: 25%;
+	text-align: center;
+}
+
+#inner-nav {
+		margin: auto;
+		width: 75%;
+		height: 100px;
+
+}
+
+#nav {
+		height: 100px;
+		width: 80%;
+}
+
+#work-examples-button {
+	float: left;
+	height: 100px;
+	width: 25%;
+	text-align: center;
+}
+
+/* || Home Page */
+
+#intro-text {
+	float: left;
+	text-align: left;
+	font-family: 'Georgia', sans-serif;line-height: 1.7;
+}
+
+#main-container {
+		width: 1150px;
+		height: 450px;
+		margin-left: 5%;
+		position: relative;
+		float: left;
+}
+
+#text-container {
+		display: inline-block;
+		float: left;
+		width: 30%;
+		height: 100%;
+}
+
+/* || Home Page -- Slideshow */
+
+.arrows {
+	border: 2px solid;
+	background-color:white;
+	font-family: "Lucida Console", Monaco, monospace;
+}
+
+.slides {
+		display:none;
+		margin-left:7%;
+		margin-top: 1%;
+		width: 59%;
+}
+
+#arrow-container {
+	width: 96%;
+	position: relative;
+	text-align: right;
+}
+
+#left-arrow {
+		display: inline-block;
+}
+
+#right-arrow {
+	display: inline-block;
+}
+
+#slide1 {
+		display: inline-block;
+}
+
+/* || CV Page */
+
+#resume-container {
+	width: 75%;
+	height: 1000px;
+}
+
+/* || Work Examples Page */
+
+.description {
+	margin-left: 1em;
+}
+
+#abstract-header {
+	margin-left: 2em;
+}
+
+ #abstract-text {
+	margin-left: 10px;
+	text-align: left;
+	font-family: 'Georgia', sans-serif;
+	line-height: 1.7;
+}
+
+#coding-container {
+	width: 50%;
+	height: 100%;
+	float: left;
+
+}
+
+#scroll-box1 {
+	width: 90%;
+	height: 85%;
+	margin-left: 5%;
+	overflow: scroll;
+	border: solid;
+}
+
+#scroll-box {
+	width: 90%;
+	height: 54%;
+	margin-left: 5%;
+	overflow: scroll;
+	border: solid;
+}
+
+#work-container {
+	width: 80%;
+	height: 700px;
+	position: relative;
+	border-style: solid;
+	margin-left: 50px;
+}
+
+#writing-container {
+	display: inline-block;
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+
+/* || Contact Page */
+
+.cushion {
+	height: 25px;
+}
+
+.input-box1 {
+	text-align: left;
+	width: 50%;
+	display:inline-block
+}
+
+.input-box2 {
+	display: inline-block;
+	width: 25%;
+	text-align:left;
+}
+
+.text-field {
+	width: 100%;
+}
+
+#envelope {
+	width: 63%;
+	height: 75px;
+	text-align: left;
+}
+
+#field-set {
+	border: none;
+}
+
+#form-container {
+	text-align: center;
+	width: 75%;
+}
+
+#submit-button {
+	font-size: 18px;
+	border: 2px solid;
+	background-color:white;
+	font-family: "Lucida Console", Monaco, monospace;
+}
